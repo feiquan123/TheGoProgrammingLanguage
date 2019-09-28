@@ -1,6 +1,6 @@
 TheGoProgrammingLanguage
 ===
-####_DESCRIPTION:GO 语言程序设计_
+#### _DESCRIPTION:GO 语言程序设计_
 > 许式伟 吕桂华 等编著  
 > 阅读时间： 2019/09/16 周一 -- 
  
