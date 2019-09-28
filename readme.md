@@ -7,7 +7,7 @@ TheGoProgrammingLanguage
 1.第一章 初始 Go 语言
 ---
 
-2.[第二章 顺序编程](".\Chapter2_顺序编程\readme.md")
+2.[第二章 顺序编程](Chapter2_顺序编程/readme.md)
 ---
         
 3.第三章 面向对象编程
