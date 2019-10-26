@@ -1,0 +1,12 @@
+app:
+  name: sorter_program
+
+# -------------------------------------------------------------
+# 日志配置
+log:
+  level: debug    # 日志等级 trace,debug,info,error,warning,fatal,panic
+  displayLine: true # 在日志中是否显示行号
+  isJson: false   # 日志格式是json还是text
+  console: false   # 是否输出日志到控制台，如果是,则不输出到文件
+  path: E:/GoProgram/src/myGolang/TheGoProgrammingLanguage/Chapter2_顺序编程/sorter_program/log/   # 日志路径
+  file: sorter_program.log        # 日志文件名

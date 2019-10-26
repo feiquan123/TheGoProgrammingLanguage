@@ -1,0 +1,12 @@
+app:
+  name: music_program
+
+# -------------------------------------------------------------
+# 日志配置
+log:
+  level: error    # 日志等级 trace,debug,info,error,warning,fatal,panic
+  displayLine: true # 在日志中是否显示行号
+  isJson: false   # 日志格式是json还是text
+  console: false   # 是否输出日志到控制台，如果是,则不输出到文件
+  path: /applogs/music_program/   # 日志路径
+  file: music_program.log        # 日志文件名
