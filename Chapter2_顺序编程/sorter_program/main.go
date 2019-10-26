@@ -19,11 +19,10 @@ func init() {
 	// 初始化提示
 	tips()
 
-	// 判断系统，选择不同的配置文件,和配置路径
-	appConfigDir, appConfigFileName := common.GetConfig(appName)
+	// 获取配置文件的路径，得到不同的配置文件,和配置路径
+	appConfigDir, appConfigFileName ,appConfigFileType := getConfig(*Configfile)
 	// 传入app.yaml 的文件,设置Viper和logger
 	common.SetVpierAndLogger(v, log, appConfigDir, appConfigFileName, appConfigFileType)
-
 	// 初始化其它文件
 	sorter.SetViperAndLog(v, log)
 }

@@ -6,18 +6,9 @@ import (
 	"github.com/spf13/viper"
 )
 
-// 提示
-var (
-	H         *bool   // 帮助
-	Infile    *string // 输入文件
-	Outfile   *string // 输出文件
-	Algorithm *string // 算法
-)
-
 // 全局的变量
 var (
-	appName           = "sorter_program"
-	appConfigFileType = "yaml"
+	appname           = "sorter_program"
 	v                 *viper.Viper
 	log               *logrus.Logger
 )
