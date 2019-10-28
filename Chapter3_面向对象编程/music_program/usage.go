@@ -23,7 +23,7 @@ Options:
 			Remove the spectified music from the lib
 	- play <name>:
 			Play the spectified music
-`,appName)
+`,appname)
 	flag.PrintDefaults()
 }
 

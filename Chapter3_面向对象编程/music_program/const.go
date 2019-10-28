@@ -7,14 +7,9 @@ import (
 	"myGolang/TheGoProgrammingLanguage/Chapter3_面向对象编程/music_program/kernel/musicManager"
 )
 
-// 提示
-var (
-	H *bool // 帮助
-)
-
 // 全局的变量
 var (
-	appName           = "sorter_program"
+	appname           = "sorter_program"
 	appConfigFileType = "yaml"
 	v                 *viper.Viper
 	log               *logrus.Logger
